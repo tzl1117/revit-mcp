@@ -110,6 +110,21 @@ flowchart LR
 | get_current_view_info | Get current active view info |
 | get_current_view_elements | Get elements from the current active view |
 | get_available_family_types | Get available family types in current project |
+<<<<<<< HEAD
+| get_selected_elements      | Get selected elements                      |
+| create_point_based_element  | Create point based element (door, window, furniture) |
+| create_line_based_element   | Create line based element (wall, beam, pipe) |
+| create_surface_based_element   | Create surface based element (floor, ceiling) |
+| delete_elements             | Delete elements                            |
+| reset_model                | Reset model (delete process model when executing continuous dialog) |
+| modify_element             | Modify element's properties (instance parameters) |
+| search_modules             | Search for available modules              |
+| use_module                 | Use module                                |
+| send_code_to_revit         | Send code to Revit to execute             |
+| color_splash		     | Color elements based on a parameter value	|
+| tag_walls		     | Tag all walls in view            |
+| say_hello                  | Simple test tool that displays a hello message in Revit |
+=======
 | get_selected_elements | Get currently selected elements |
 | get_material_quantities | Calculate material quantities and takeoffs |
 | ai_element_filter | Intelligent element querying tool for AI assistants |
@@ -132,3 +147,4 @@ flowchart LR
 | query_stored_data | Query stored project and room data |
 | send_code_to_revit | Send C# code to Revit to execute |
 | say_hello | Display a greeting dialog in Revit (connection test) |
+>>>>>>> c9ef49e4c397298d291304f822b89ba3a102e6bf
