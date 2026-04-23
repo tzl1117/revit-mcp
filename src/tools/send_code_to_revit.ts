@@ -13,7 +13,14 @@ export function registerSendCodeToRevitTool(server: McpServer) {
           "The C# code to execute in Revit. This code will be inserted into the Execute method of a template with access to Document and parameters."
         ),
       parameters: z
-        .array(z.any())
+        .array(
+          z.object({
+            name: z.string().describe("Parameter name"),
+            value: z
+              .string()
+              .describe("Parameter value serialized as string"),
+          })
+        )
         .optional()
         .describe(
           "Optional execution parameters that will be passed to your code"

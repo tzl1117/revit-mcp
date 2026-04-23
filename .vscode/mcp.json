@@ -1,0 +1,12 @@
+{
+	"servers": {
+		"revit-mcp": {
+			"type": "stdio",
+			"command": "node",
+			"args": [
+				"C:/Users/ztan/OneDrive - SmithGroup Companies Inc/Documents/GitHub/revit-mcp/build/index.js"
+			]
+		}
+	},
+	"inputs": []
+}
